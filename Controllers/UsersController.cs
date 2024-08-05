@@ -25,5 +25,8 @@ namespace CbtAdminPanel.Controllers
             ResponseModel result = _repository.getuserdata(res.Id);
             return result;
         }
+
+
+
     }
 }
